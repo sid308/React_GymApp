@@ -2,7 +2,7 @@ const express = require("express");
 const workoutRoutes = require("./routes/workouts");
 const mongoose = require("mongoose");
 MONG_URL =
-  "mongodb+srv://Siddiqui_Hozaifa:rkJntnVsBWI6vW6A@mernapp.nxoqa3r.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://<Mongo Username>:<Password>@mernapp.nxoqa3r.mongodb.net/?retryWrites=true&w=majority";
 
 // express app
 const app = express();
